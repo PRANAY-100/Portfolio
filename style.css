@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #161513;
+  color: #c5c5c5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #222;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar div {
+  padding: 30px 20px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.avatar img {
+  width: 251px;
+}
+
+.about {
+  text-align: center;
+}
+
+.abt-text {
+  width: 652px;
+  margin: 30px auto;
+}
+
+.abt-text h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: #fff;
+}
+
+.abt-text h1 > span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.abt-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.btn-primary {
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 195px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid var(--Primary-Color, #fff);
+  font-size: 22px;
+  background: linear-gradient(
+      0deg,
+      var(--Primary-Color, #fff) 0%,
+      var(--Primary-Color, #fff) 100%
+    ),
+    var(--Primary-Color, #fff);
+}
+.btn-secondary {
+  margin-top: 30px;
+  font-size: 22px;
+  background: none;
+  color: #fff;
+  width: 195px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 2px solid var(--Primary-Color, #fff);
+}
+
+.experience-with {
+  text-align: center;
+}
+
+.experience-with h2 {
+  font-size: 20px;
+}
+
+.experience-with-lang {
+  display: flex;
+  width: 500px;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+
+.experience-with-lang img {
+  width: 42px;
+  cursor: pointer;
+}
+.primary-heading {
+  text-align: center;
+  font-size: 35px;
+}
+.heading-project {
+  background: var(
+    --Orange-Gradient,
+    linear-gradient(180deg, #ff8660 0%, #d5491d 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience-title {
+  padding: 30px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+}
+
+.project-title {
+  padding: 15px;
+}
+
+.project-title p {
+  color: #fff;
+}
+
+.project-item {
+  background: #2a2a2a;
+  margin: 20px;
+  border-radius: 18px 18px 0 0;
+}
+.container h2 {
+  color: lightskyblue;
+  margin-bottom: 40px;
+}
+.experience-title-container img {
+  width: 40px;
+}
+
+.experience-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-title-container .date {
+  margin-left: auto;
+}
+
+.experience-title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #191919;
+}
+.container h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 15px;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.email-container img {
+  margin-right: 10px;
+}
